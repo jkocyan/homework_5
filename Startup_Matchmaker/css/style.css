@@ -1,0 +1,83 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;}
+
+header {
+  width: 100%; 
+  background-color: black; 
+  overflow: hidden;
+  height: 175px;}
+
+.logo {
+  font-family: 'Sura', serif;
+  color: yellow;
+  font-size: 30px;
+  height: 30px;
+  padding: 10px 0px 0px 20px;}
+
+.nav {
+  float: right;
+  clear: both;
+  height: 70px;}
+
+ul {
+  color: white;
+  float: right;
+  font-size: 22px;
+  padding-right: 15px;}
+
+li {
+  display: inline-block;
+  margin: 5px;}
+
+#font2 {
+  font-family: 'Squada One', cursive;}
+
+#font3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;}
+
+.yellowblock {
+  width: 100%;
+  height: 5px;
+  background-color: yellow;
+  clear: both;}
+
+.headline {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: lightgray;
+  float: left;
+  clear: both;
+  font-family: 'Volkhov', serif;
+  font-size: 22px;
+  text-align: center;}
+
+#center {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;}
+
+#strikethrough {
+  text-decoration: line-through;
+  color: darkgray;
+}
+
+#underline {
+  text-decoration: underline;
+}
+
+.background-img {
+  background: url(../images/coworking.jpg);
+  height: 500px;
+  width: 100%;
+}
+
+.main-text {
+  background: white;
+  width: 300px;
+  position: relative;
+  right: 20px;
+}
+
